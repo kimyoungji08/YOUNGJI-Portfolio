@@ -1,0 +1,74 @@
+*{margin: 0;}
+html{font-size: 10px;}
+body{font-size: 1rem;}
+ul{list-style:none;}
+a{text-decoration: none;}
+
+#wrap {width:auto; margin:0 auto; }
+
+header{width: 100%;height: 8rem;background-color:#003D1E;}
+header > nav{width: 102.4rem;margin: auto;display: flex;justify-content: space-between;align-items: center;height: 8rem;}
+
+header > nav > .menu{display: inline-block;}
+header > nav > .menu > ul{list-style: none;}
+header > nav > .menu > ul > li{float: left;margin: 0rem 1.7rem;}
+header > nav > .menu > ul > li > a{color:#ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 1.6rem;font-weight: 500;;letter-spacing: -0.03rem;}
+header > nav > .menu > ul > li > a:hover{color: #C69C6D;font-size: 1.7rem;}
+
+section > .keyvisual{background-image: url('../img/02_keyvisual_bg.png');height: 62.5rem;}
+section > .keyvisual > .keyvisual_wrap{margin: auto;width: 102.4rem;height: 70rem;}
+section > .keyvisual > .keyvisual_wrap > .keyvisual_title{padding-top: 19rem;text-align: center;}
+
+/*메인_WHO?*/
+section >.bg {background-color:#99B1A5; width: 100%;}
+section >.bg> .WHO{margin: auto; width: 102.4rem;}
+section >.bg> .WHO>.text{padding-top: 13.3rem;padding-left: 3.8rem;}
+section >.bg> .WHO >.mov{margin: auto; width: 74.8rem;}
+section >.bg > .WHO >.mov> video{width: 100%; padding-top: 2rem;}
+.text1 {overflow: hidden;}
+/*메인_PROJECT*/
+section >.bg {background-color:#99B1A5; width: 100%;}
+section >.bg>.PROJECT{margin: auto; width: 102.4rem;}
+section >.bg>.PROJECT>.text_01{padding-top: 15.0rem; padding-bottom: 2.0rem; padding-left: 9.3rem;}
+
+section >.bg> .PROJECT01{margin: auto; width: 102.4rem;}
+section >.bg>.PROJECT01>.box{padding-left: 10.0rem;padding-bottom: 15.0rem;}
+.box1 {overflow:hidden; display:block; margin-bottom:27px; text-align: center;}
+.box1 li img {width:362px; height: 240px;}
+.box1 li {float:left; margin-right:24px;}
+
+/*서브01_WHO?*/
+section >.sub01 {background-color:#99B1A5; width: 100%;}
+section >.sub01 >.mov{margin: auto; width: 74.8rem;}
+section >.sub01 >.mov> video{width: 100%; padding-top: 8.5rem; padding-bottom: 8.5rem;}
+
+section >.sub01_2 {background-color:#ffffff; width: 100%;}
+section >.sub01_2 >.me {margin: auto; width: 45.1rem; height:22.1rem; text-align: center;}
+section >.sub01_2>.me > img{width: 100%; padding-top:15.0rem; }
+
+section >.sub01_2 >.icon {margin: auto; padding-top: 16.1rem;padding-left: 18.0rem;text-align: center;}
+
+section >.sub01_2 >.me_02 {margin: auto; width: 74.8rem; text-align: center;}
+section >.sub01_2>.me_02 > img{width: 100%;padding-top: 10.0rem;padding-bottom: 20.0rem;}
+
+
+/*서브02_packge*/
+section >.sub02 {background-color:#99B1A5; width: 100%;}
+section >.sub02>.main {margin: auto; width: 51.4rem; height:40.0rem; text-align: center;}
+section >.sub02>.main > img{width: 100%; padding-top:8.0rem;padding-bottom: 8.0rem;}
+
+section >.sub02_2>.show {margin: auto; width: 102.4rem;padding-top: 10.0rem;}
+
+section >.sub02_2>.show>.bottom {padding-bottom: 20.0rem;}
+/*서브03_packge*/
+
+
+/*서브04_packge*/
+
+
+/*서브05_packge*/
+
+
+
+
+footer {margin: auto; padding-top: 2.5rem; padding-bottom: 2.5rem; background-color:#99B1A5;  text-align:center; font-size:1.2rem; color: #ffffff; }
